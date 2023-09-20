@@ -1,11 +1,29 @@
-#cabeçalho{
+header {   
         width: 100%;
-        height: 40px;
-        background-color: rgb(27, 27, 27);
+        height: 120px;
+        background-color: #ca1c2a;
+        z-index: 2;
+        position: relative; 
 }
-#logotipo {
-        width: 350px;
-        height: 80px;
-        background-color: black;
-        float: left;
+header .container {
+        position: relative;
+}
+#logotipo{
+        position: absolute;
+        width: 280px;
+        height: 65px;
+        left: -380px;
+        top: 50px;
+        margin-top: 1px solid black;
+        margin-bottom: 1px solid #eb4250;
+}
+header .header-black{
+        background-color: #31353b;
+        width: 100%;
+        height: 40px;      
+        display: block;
+        position: relative;
+}
+header .header-black li{
+        color: #fff;
 }
